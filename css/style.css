@@ -11,13 +11,22 @@ body{
     background-color: hsl(30, 38%, 92%);
 }
 
+main{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Layout */
 
 .container{
+    overflow: hidden;
     width: 375px;
     max-width: 90%;
-    margin: 5% auto;
+    margin: 0 auto;
     background-color: #fff;
+    border-radius: 1em;
 }
 
 .row{
